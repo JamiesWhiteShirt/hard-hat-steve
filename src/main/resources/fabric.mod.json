@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "hard-hat-steve",
+  "version": "${version}",
+  "name": "Hard Hat Steve",
+  "description": "Effective gear for the effective builder.",
+  "authors": [
+    "JamiesWhiteShirt"
+  ],
+  "contact": {
+    "sources": "https://github.com/JamiesWhiteShirt/hard-hat-steve",
+    "issues": "https://github.com/JamiesWhiteShirt/hard-hat-steve/issues",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/hard-hat-steve"
+  },
+  "license": "MIT",
+  "icon": "assets/hard-hat-steve/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.jamieswhiteshirt.hardhatsteve.HardHatSteve"
+    ],
+    "client": [
+      "com.jamieswhiteshirt.hardhatsteve.client.HardHatSteveClient"
+    ]
+  },
+  "mixins": [
+    "mixins.hard-hat-steve.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}

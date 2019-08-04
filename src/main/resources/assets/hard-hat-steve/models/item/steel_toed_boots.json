@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hard-hat-steve:items/steel_toed_boots",
+    "layer1": "hard-hat-steve:items/steel_toed_boots_overlay"
+  }
+}

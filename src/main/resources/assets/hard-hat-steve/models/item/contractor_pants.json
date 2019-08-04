@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hard-hat-steve:items/contractor_pants",
+    "layer1": "hard-hat-steve:items/contractor_pants_overlay"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hard-hat-steve:items/safety_vest",
+    "layer1": "hard-hat-steve:items/safety_vest_overlay"
+  }
+}
