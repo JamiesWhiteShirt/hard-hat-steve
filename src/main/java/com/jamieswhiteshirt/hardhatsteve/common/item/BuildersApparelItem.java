@@ -1,6 +1,7 @@
 package com.jamieswhiteshirt.hardhatsteve.common.item;
 
 import com.google.common.collect.Multimap;
+import com.jamieswhiteshirt.hardhatsteve.HardHatSteve;
 import com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes;
 import net.fabricmc.fabric.api.util.NbtType;
 import net.minecraft.entity.EquipmentSlot;
@@ -36,7 +37,7 @@ public class BuildersApparelItem extends DyeableArmorItem {
     public Multimap<String, EntityAttributeModifier> getModifiers(EquipmentSlot equipmentSlot_1) {
         Multimap<String, EntityAttributeModifier> multimap_1 = super.getModifiers(equipmentSlot_1);
         if (equipmentSlot_1 == this.slot) {
-            multimap_1.put(ReachEntityAttributes.REACH.getId(), new EntityAttributeModifier(MODIFIERS[equipmentSlot_1.getEntitySlotId()], "Reach modifier", 0.5D, EntityAttributeModifier.Operation.ADDITION));
+            multimap_1.put(ReachEntityAttributes.REACH.getId(), new EntityAttributeModifier(MODIFIERS[equipmentSlot_1.getEntitySlotId()], "Reach modifier", HardHatSteve.reachModifier, EntityAttributeModifier.Operation.ADDITION));
         }
 
         return multimap_1;
