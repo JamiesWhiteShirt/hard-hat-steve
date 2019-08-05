@@ -3,13 +3,9 @@
   "package": "com.jamieswhiteshirt.hardhatsteve.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "ServerPlayerInteractionManagerMixin",
-    "LivingEntityMixin"
   ],
   "client": [
-    "client.ArmorFeatureRendererAccessor",
-    "client.ClientPlayerInteractionManagerMixin",
-    "client.GameRendererMixin"
+    "client.ArmorFeatureRendererAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
