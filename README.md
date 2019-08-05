@@ -2,6 +2,8 @@
 
 Effective gear for the effective builder.
 
+- [reach-entity-attributes](https://github.com/JamiesWhiteShirt/reach-entity-attributes): Provides entity attributes used by Hard Hat Steve.
+
 
 ## Developing Hard Hat Steve
 
