@@ -30,7 +30,7 @@ public class BuildersApparelItem extends DyeableArmorItem {
     @Override
     public int getColor(ItemStack itemStack_1) {
         CompoundTag compoundTag_1 = itemStack_1.getSubTag("display");
-        return compoundTag_1 != null && compoundTag_1.containsKey("color", NbtType.NUMBER) ? compoundTag_1.getInt("color") : defaultColor;
+        return compoundTag_1 != null && compoundTag_1.contains("color", NbtType.NUMBER) ? compoundTag_1.getInt("color") : defaultColor;
     }
 
     @Override

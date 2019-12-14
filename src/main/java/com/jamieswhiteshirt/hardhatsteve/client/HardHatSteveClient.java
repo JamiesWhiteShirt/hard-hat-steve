@@ -32,8 +32,6 @@ public class HardHatSteveClient implements ClientModInitializer {
     private void preRegisterArmorTexture(Identifier name, int layer, @Nullable String extra) {
         String key = "textures/models/armor/" + name + "_layer_" + layer + (extra == null ? "" : "_" + extra) + ".png";
         Identifier value = new Identifier(name.getNamespace(), "textures/models/armor/" + name.getPath() + "_layer_" + layer + (extra == null ? "" : "_" + extra) + ".png");
-        // We need to forcibly load the class before we use the accessor. yup.
-        ArmorFeatureRenderer.class.getName();
         ArmorFeatureRendererAccessor.getArmorTextureCache().put(key, value);
     }
 }
