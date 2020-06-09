@@ -10,7 +10,7 @@ import net.minecraft.util.registry.Registry;
 public class HardHatSteveItems {
     public static final ArmorMaterial BUILDERS_APPAREL = new SimpleArmorMaterial(
         "hard-hat-steve:builders_apparel",
-        0, new int[] { 0, 0, 0, 0 }, 0, HardHatSteveSoundEvents.ITEM_ARMOR_EQUIP_BUILDERS_APPAREL, 0.0F, () -> Ingredient.EMPTY
+        0, new int[] { 0, 0, 0, 0 }, 0, HardHatSteveSoundEvents.ITEM_ARMOR_EQUIP_BUILDERS_APPAREL, 0.0F, 0.0F, () -> Ingredient.EMPTY
     );
 
     public static final Item HARD_HAT = register("hard_hat", new BuildersApparelItem(BUILDERS_APPAREL, EquipmentSlot.HEAD, 0xFFC000, new Item.Settings().group(ItemGroup.MISC)));
