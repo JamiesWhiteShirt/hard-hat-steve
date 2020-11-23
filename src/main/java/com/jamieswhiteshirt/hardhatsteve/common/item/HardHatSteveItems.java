@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 
 public class HardHatSteveItems {
     public static final ArmorMaterial BUILDERS_APPAREL = new SimpleArmorMaterial(
-        "hard-hat-steve:builders_apparel",
+        "builders_apparel",
         0, new int[] { 0, 0, 0, 0 }, 0, HardHatSteveSoundEvents.ITEM_ARMOR_EQUIP_BUILDERS_APPAREL, 0.0F, 0.0F, () -> Ingredient.EMPTY
     );
 
